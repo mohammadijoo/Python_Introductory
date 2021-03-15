@@ -1,0 +1,6 @@
+f = open("demofile.txt", "r")
+print(f.readline())        
+print("\n ************************ \n")
+f.seek(0)
+print(f.readlines())        
+f.close()
